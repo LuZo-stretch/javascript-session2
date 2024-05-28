@@ -1,5 +1,6 @@
-let message = "Hello"
-console.log(message)
-
-message = "Hi!"
-console.log(message)
+const response = prompt("Books vs movies")
+if (response === "books") {
+    console.log("BOOKS")
+} else {
+    console.log("FILMS")
+}
